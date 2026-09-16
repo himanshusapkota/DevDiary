@@ -1,0 +1,200 @@
+body{
+    background: #101010;
+    color: #eeeeee;
+    font-family: cursive;
+    line-height: 1.6;
+}
+
+header{
+    background: #111111;
+    border-bottom: 1px solid #333;
+
+}
+
+nav{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-family: cursive;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.menu a{
+    color: #bbbbbb;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.menu a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(15, 209, 86);
+}
+
+main{
+    max-width: 10000px;
+    margin: auto;
+    padding: 30px 20px;
+
+}
+
+.welcome{
+    text-align: center;
+    padding: 100px 20px;
+
+}
+
+.small{
+    color: #888;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.welcome h2{
+    font-family: cursive;
+    font-size: 55px;
+    margin: 15px 0;
+    color: white;
+
+
+}
+
+
+.welcome p:not(.small) { 
+    max-width: 600px;
+     margin: auto; 
+     color: #aaa;
+
+
+}
+
+button{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #eeeeee;
+    color: #111;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover{
+    background: #bbbbbb;
+
+}
+
+.about{
+    text-align: center;
+    padding: 22px 20px;
+    border-top: 1px solid #333;
+
+}
+.about h2{
+    font-family: cursive;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+
+
+.about p{
+    max-width: 650px;
+    margin: auto;
+    color: #999;
+
+}
+
+
+.blogs{
+    font-family: cursive;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.cards{
+    display: flex;
+    gap: 25px;
+}
+
+.cards article{
+    background: #181818;
+    border: 1px solid #333;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+    transition: 0.2s;
+
+}
+
+.cards article:hover{
+    border-color: #666;
+    transform: translateY(-4px);
+}
+
+.cards h3{
+    font-family: cursive;
+    font-size: 27px;
+    margin: 10px 0;
+}
+.cards article p:not(.small) {
+     color: #999;
+      margin-bottom: 20px; 
+    }
+
+ .cards a {
+        color: #eeeeee;
+        text-decoration: none;
+    }
+
+.cards a:hover{
+         text-decoration: underline;
+
+    }
+
+
+.end { text-align: center; 
+        padding: 70px 20px;
+        background: #181818;
+        border-radius: 10px;
+
+        }
+
+.end h2 {
+     font-family: cursive; 
+      font-size: 32px; 
+} 
+.end p { 
+    
+     color: #999;
+     margin-top: 10px; 
+    
+    }
+
+
+  footer { 
+    margin-top: 50px;
+    padding: 30px; 
+    text-align: center; 
+    background: #151515;
+    border-top: 1px solid #333; 
+    color: #888; 
+}
+
+
+  footer a { 
+    color: #ddd;
+     margin-left: 5px; 
+     text-decoration: none;
+    }
+
+
+        footer p { 
+            margin: 5px;
+         }
