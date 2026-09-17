@@ -5,6 +5,133 @@
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Blog-Page</title>
     <style>
+body{
+    background: #101010;
+    color: #eee;
+    font-family: cursive;
+    line-height: 1.6;
+}
+
+header{
+    background: #10101010;
+    border-bottom: 1px solid #3333;
+}
+nav{
+    max-width: 10000px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav h1{
+    font-family: cursive;
+    font-size: 28px;
+
+
+}
+
+.menu a{
+    color: #bbbbbb;
+    text-decoration: none;
+    margin-left: 25px;
+
+}
+
+.menu a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(15, 209, 86);
+
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.top{
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+.small{
+    color: #888;
+    font-size: 12px;
+    margin: 10px 0;
+
+}
+
+.top p:last-child{
+    color: #999;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.blogs article {
+    background: #181818;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.blogs h3 {
+    font-family: cursive;
+    font-size: 25px;
+    margin: 8px 0;
+}
+
+.author {
+    color: #777;
+    font-size: 14px;
+}
+
+.blogs article p:not(.small):not(.author):not(.time) {
+    color: #aaa;
+    margin: 12px 0;
+}
+
+.time {
+    color: #777;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    background: #eee;
+    color: #111;
+    padding: 9px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #bbb;
+}
+
+.blogs article:hover {
+    border-color: #555;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    background: #151515;
+    border-top: 1px solid #333;
+    color: #777;
+
+}
+
+
 
        
     </style>
@@ -83,15 +210,99 @@
 
             <article>
                 <div>
-                    <p class="small">App Development</p>
-                    <h3>How to build Apps?</h3>
-                    <p class="author">By Riyaz Bhusal</p>
-                    <p>Learn How Apps are built & what technologiesis used making an app!</p>
-                    <p class="time">45 min Read</p>
+                    <p class="small">Programming</p>
+                    <h3>What is Programming?</h3>
+                    <p class="author">By Himanshu Sapkota</p>
+                    <p>Learn about the fundamental of programming!!</p>
+                    <p class="time">30 min Read</p>
                 </div>
                 <a href="#" class="button">Read All</a>
             </article>
 
+
+
+
+            <article>
+                <div>
+                    <p class="small">Data Structure and Algoritm</p>
+                    <h3>What is DSA?</h3>
+                    <p class="author">By Mansoon Paudel</p>
+                    <p>Learn all about the DSA!!</p>
+                    <p class="time">35 min Read</p>
+                </div>
+                <a href="#" class="button">Read All</a>
+            </article>
+
+
+
+            <article>
+                <div>
+                    <p class="small">Game Development With Godot</p>
+                    <h3>How to build Games?</h3>
+                    <p class="author">By Mansoon Paudel</p>
+                    <p>Learn How to make game with godot</p>
+                    <p class="time">2 hour  Read</p>
+                </div>
+                <a href="#" class="button">Read All</a>
+            </article>
+
+
+
+            <article>
+                <div>
+                    <p class="small">Algoritm</p>
+                    <h3>What is algoritm?</h3>
+                    <p class="author">By Shreejit Paudel</p>
+                    <p>Learn about the algoritm!</p>
+                    <p class="time">1 hour Read</p>
+                </div>
+                <a href="#" class="button">Read All</a>
+            </article>
+
+             <article>
+                <div>
+                    <p class="small">Astronomy</p>
+                    <h3>What is Astronomy?</h3>
+                    <p class="author">By Milan Ghimire</p>
+                    <p>Learn about space!</p>
+                    <p class="time">4 hour Read</p>
+                </div>
+                <a href="#" class="button">Read All</a>
+            </article>
+
+
+               <article>
+                <div>
+                    <p class="small">Telescope</p>
+                    <h3>What is Telescope?</h3>
+                    <p class="author">By Adit Tharu</p>
+                    <p>Learn about diffferent types of Telescope!</p>
+                    <p class="time">6 hour Read</p>
+                </div>
+                <a href="#" class="button">Read All</a>
+            </article>
+
+             <article>
+                <div>
+                    <p class="small">Hack Club</p>
+                    <h3>What is Hack club?</h3>
+                    <p class="author">By Zach Latta(ZRL)</p>
+                    <p>Learn about hack Club/p>
+                    <p class="time">1.5 hour Read</p>
+                </div>
+                <a href="#" class="button">Read All</a>
+            </article>
+
+
+
+
+
+
+
+
+      
+
+    
 
      </section>
     </main>
@@ -100,11 +311,6 @@
     <footer>
         <p>Made by Himanshu ( Newton in Slack & Nepzilla in Discord)</p>
     </footer>
-
-
-
-
-
 
     
 </body>
